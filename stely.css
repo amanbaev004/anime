@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+body{
+    margin: 0px;
+    font-family: 'Spectral', serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('https://pm1.narvii.com/6606/56a0078c75e0a48bd55d789ab5b1e05a91fe6d2c_hq.jpg') center / cover;
+    box-shadow: inset 0px 100vh 0px rgba(50,50, 50, .5);
+}
+
+header nav{
+    width: 80%;
+    padding: 10px 10%;
+    display: inline-flex;
+    background-color: rgba(50, 50,50, .8);
+}
+
+header nav ul{
+    display: inline-flex;
+    list-style: none;
+    margin-left: auto;
+    color: white;
+}
+
+header nav ul li{
+    margin: 0px 130px;
+    font-size: 18px;
+}
+
+.nachalo{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+
+.nachalo h1{
+    font-size: 40px;
+    margin: 0px;
+}
+
+.nachalo h4{
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.poiskovik{
+    display: inline-flex;
+    margin: 0px 500px;
+}
+
+.btn{
+    padding: 10px 10px ;
+    font-size: 18px;
+    color: white;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    letter-spacing: 3px;
+    transition: 500ms;
+}
+
+main{
+    width: 100%;
+    background-color: black;
+}
+
+
+.services{
+    width: 94%;
+    padding: 30px 3%;
+    display: inline-flex;
+    background-color: black;
+}
+
+
+.services div{
+    width: 28%;
+    height: 450px;
+    padding: 20px;
+    text-align: center;
+    margin: 0px auto;
+    color: white;
+    transition: 500ms;
+}
+
+.services div p{
+    margin-top: 100px;
+    text-shadow: 0px 0px 10px white;
+    opacity: 0;
+}
+.services div h1{
+    opacity: 0;
+}
+
+.blok1{
+    background: url('https://drasler.ru/wp-content/uploads/2021/04/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D1%82%D0%BE%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BD%D0%B0%D1%80%D1%83%D1%82%D0%BE-%D0%BD%D0%B0-%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD-1.jpeg') center / cover;
+}
+
+.blok2{
+    background: url("https://avatars.mds.yandex.net/get-kinopoisk-image/4716873/9b395abc-e304-41ba-8816-3aab6db5541c/600x900") center / cover;
+}
+
+.blok3{
+    background: url("https://upload.wikimedia.org/wikipedia/ru/2/2b/Darling_in_the_Franxx_poster.jpg") center / cover;
+}
+
+.services div:hover{
+    box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.7) ;
+}
+
+.services div:hover p{
+    opacity: 1;
+}
+
+.services div:hover h1{
+    opacity: 1;
+}
+
+.vidio{
+    background-color: black;
+}
+
+.vidio h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.pusk{
+    margin: 0px 30px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.pusk1{
+    width: 380px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.pusk2{
+    width: 380px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.pusk3{
+    width: 380px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.pusk9{
+    margin: 0px 160px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.pusk6{
+    width: 380px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+.pusk7{
+    width: 380px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+}
+.container h3{
+    color: rgb(0, 0, 0);
+}
+.links{
+    padding-top: 60px;
+    width: 33%;
+}
+.links p{
+    color: grey;
+}
+
